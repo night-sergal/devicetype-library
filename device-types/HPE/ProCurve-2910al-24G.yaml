@@ -57,22 +57,33 @@ interfaces:
     type: 1000base-t
   - name: '19'
     type: 1000base-t
-  - name: '20'
-    type: 1000base-t
-  - name: '21'
-    type: 1000base-t
-  - name: '22'
-    type: 1000base-t
-  - name: '23'
-    type: 1000base-t
-  - name: '24'
-    type: 1000base-t
+  # - name: '20'
+  #   type: 1000base-t
+  # - name: '21'
+  #   type: 1000base-t
+  # - name: '22'
+  #   type: 1000base-t
+  # - name: '23'
+  #   type: 1000base-t
+  # - name: '24'
+  #   type: 1000base-t
 # dual personality
-#  - name: '21'
-#    type: 1000base-x-sfp
-#  - name: '22'
-#    type: 1000base-x-sfp
-#  - name: '23'
-#    type: 1000base-x-sfp
-#  - name: '24'
-#    type: 1000base-x-sfp
+  - name: '21'
+    type: 1000base-x-sfp
+  - name: '22'
+    type: 1000base-x-sfp
+  - name: '23'
+    type: 1000base-x-sfp
+  - name: '24'
+    type: 1000base-x-sfp
+device_bays:
+  - name: Module Bay 1
+    label: Slot A
+    position: 1
+    module:
+      - J9149A
+      - J9008A
+      - J9165A
+  - name: Module Bay 2
+    label: Slot B
+    position: 2
